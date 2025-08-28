@@ -12,4 +12,35 @@
 
     --para-family: "Mulish", sans-serif;
     --para-size: 18px;
+
+    --bg-img: url("../assets/images/background image desktop.svg")
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--para-family);
+    color: var(--font-color);
+}
+
+body{
+    background-color: black;
+    background-image: var(--bg-img);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body::after{
+    background: var(--overlay-color);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
 }
