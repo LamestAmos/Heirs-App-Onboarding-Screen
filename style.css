@@ -1,7 +1,7 @@
 :root{
     --logo-color: #87676F66;
     --button-color: linear-gradient(90deg, rgba(162, 44, 93, 0.18) 41.94%, rgba(200, 0, 0, 0.18) 100%);
-    --background-color: linear-gradient(360deg, #141414 27.57%, rgba(0, 0, 0, 0) 65.64%);
+    --overlay-color: linear-gradient(360deg, #141414 27.57%, rgba(0, 0, 0, 0) 65.64%);
 
     --logo-font-color: #CED1D3;
     --font-color: #F2EBE3;
